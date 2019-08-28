@@ -1,0 +1,59 @@
+Test 1: Querier, Using too few arguments:
+usage: <./querier> <directory pathname> <index filename>
+Test 2: Querier, Using too few arguments (no file name):
+usage: <./querier> <directory pathname> <index filename>
+Test 3: Querier, Using too few arguments (no directory path):
+usage: <./querier> <directory pathname> <index filename>
+Test 4: Querier, Non-existing directory:
+This directory does not exist
+Test 5: Querier, Non-existing file:
+This file does not exist
+Test 6: Querier, Correct arguments, using fuzzquery for random query inputs (using valgrind to check for memory leaks):
+This directory is not Crawler produced
+./fuzzquery: generating 10 queries from 15 words
+Bad Character '-' in query, moving onto next query
+Clean query: search and first 
+Matches 2 documents(ranked):
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Score		1  Doc		6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Clean query: eniac or this breadth or the for 
+Matches 3 documents(ranked):
+Score		1  Doc		5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Score		1  Doc		1: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/
+Score		1  Doc		3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Clean query: eniac home or first 
+Matches 3 documents(ranked):
+Score		1  Doc		5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Score		1  Doc		6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Clean query: breadth or algorithm home page and computational or algorithm 
+Matches 2 documents(ranked):
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Score		1  Doc		2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/A.html
+Clean query: tse playground computational computational or this 
+Matches 2 documents(ranked):
+Score		1  Doc		1: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/
+Score		1  Doc		3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Clean query: breadth 
+Matches 1 documents(ranked):
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Clean query: depth biology or for 
+Matches 7 documents(ranked):
+Score		1  Doc		6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Score		1  Doc		1: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/
+Score		1  Doc		2: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/A.html
+Score		1  Doc		3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Score		1  Doc		5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Score		1  Doc		7: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/C.html
+Clean query: this 
+Matches 2 documents(ranked):
+Score		1  Doc		1: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/
+Score		1  Doc		3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+Clean query: eniac or first or home and home and this 
+Matches 5 documents(ranked):
+Score		1  Doc		5: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/E.html
+Score		1  Doc		4: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/B.html
+Score		1  Doc		6: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/D.html
+Score		1  Doc		1: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/
+Score		1  Doc		3: http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html

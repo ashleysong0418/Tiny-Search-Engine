@@ -1,0 +1,184 @@
+Test 1: Valid Input URL 1 
+URL failed to be normalized
+URL failed to be normalized
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ crawlertestdir/
+ 2
+All inputted parameters are valid
+ 0  Fetched:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1     Found:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1     Added:: http://old-www.cs.dartmouth.edu/~cs50/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://canvas.dartmouth.edu/courses/34409
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://piazza.com/dartmouth/summer2019/cosc50su19
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://github.com/cs50-summer-2019
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: http://old-www.cs.dartmouth.edu/~cs50/Schedule.pdf
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Lectures/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Reading/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/examples/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Logistics/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Resources/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Labs/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Project/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1     Found:: http://old-www.cs.dartmouth.edu/~xia/
+ 1     Added:: http://old-www.cs.dartmouth.edu/~xia/
+ 1   Fetched:: http://old-www.cs.dartmouth.edu/~xia/
+ 1   Fetched:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2      Found:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2    IgnrDup:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://canvas.dartmouth.edu/courses/34409
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://piazza.com/dartmouth/summer2019/cosc50su19
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://github.com/cs50-summer-2019
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: http://old-www.cs.dartmouth.edu/~cs50/Schedule.pdf
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Lectures/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Reading/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/examples/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Logistics/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Resources/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Labs/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Project/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2      Found:: http://old-www.cs.dartmouth.edu/~xia/
+ 2    IgnrDup:: http://old-www.cs.dartmouth.edu/~xia/
+Test 2: Bigger maxDepth URL 1
+URL failed to be normalized
+URL failed to be normalized
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ crawlertestdir/
+ 8
+All inputted parameters are valid
+ 0  Fetched:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1     Found:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1     Added:: http://old-www.cs.dartmouth.edu/~cs50/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://canvas.dartmouth.edu/courses/34409
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://piazza.com/dartmouth/summer2019/cosc50su19
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://github.com/cs50-summer-2019
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: http://old-www.cs.dartmouth.edu/~cs50/Schedule.pdf
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Lectures/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Reading/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/examples/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Logistics/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Resources/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Labs/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1  IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Project/
+ 0 Scanning:: http://old-www.cs.dartmouth.edu/~cs50/index.html
+ 1     Found:: http://old-www.cs.dartmouth.edu/~xia/
+ 1     Added:: http://old-www.cs.dartmouth.edu/~xia/
+ 1   Fetched:: http://old-www.cs.dartmouth.edu/~xia/
+ 1   Fetched:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2      Found:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2    IgnrDup:: http://old-www.cs.dartmouth.edu/~cs50/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://canvas.dartmouth.edu/courses/34409
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://piazza.com/dartmouth/summer2019/cosc50su19
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://github.com/cs50-summer-2019
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: http://old-www.cs.dartmouth.edu/~cs50/Schedule.pdf
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Lectures/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Reading/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/examples/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Logistics/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Resources/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Labs/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2   IgnrExtn:: https://www.cs.dartmouth.edu/~cs50/Project/
+ 1  Scanning:: http://old-www.cs.dartmouth.edu/~cs50/
+ 2      Found:: http://old-www.cs.dartmouth.edu/~xia/
+ 2    IgnrDup:: http://old-www.cs.dartmouth.edu/~xia/
+Test 3: Non-Existing Directory
+This directory does not exist
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ notreal/
+ 2
+Test 4: Wrong Number of Arguments
+usage: ./crawler seedURL pageDirectory maxDepth
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ crawlertestdir/
+ (null)
+Test 5: Non-Existent URL
+thisisnotrealurl is not a valid url
+./crawler
+ thisisnotrealurl
+ crawlertestdir/
+ 2
+Test 6: Non-Internal URL
+http://google.com is not a valid url
+./crawler
+ http://google.com
+ crawlertestdir/
+ 2
+Test 7: Existent URL but Non-Existent Page URL
+webpage_fetch has failed for this url
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index1.html
+ crawlertestdir/
+ 2
+All inputted parameters are valid
+Test 8: Out of Depth Range (above 10)
+maxDepth must be in range [0, 10]
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ crawlertestdir/
+ 12
+Test 9: Out of Depth Range (less than 0)
+usage: ./crawler seedURL pageDirectory maxDepth
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/data/tse/letters/index.html
+ -1
+ (null)
+Test 10: More than 4 arguments
+usage: ./crawler seedURL pageDirectory maxDepth
+./crawler
+ http://old-www.cs.dartmouth.edu/~cs50/index.html
+ crawlertestdir/
+ 2
+Test 11: Valid Input URL 2
